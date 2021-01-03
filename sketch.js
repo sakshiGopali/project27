@@ -22,7 +22,7 @@ function setup() {
 	ROOF = new Roof(400,140,300,30);
 	bob_1 = new Ball(300,400,25);
 	bob_2 = new Ball(350,400,25);
-	bob_3 = new Ball(400,400,25);
+	bob_3 = new Ball(400,400,28);
 	bob_4 = new Ball(450,400,25);
 	bob_5 = new Ball(500,400,25);
 
