@@ -18,9 +18,9 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-        var bobDiameter=40;
-	var startBobPositionX=width/2; 
-	var startBobPositionY=height/4+500; 
+        var BallDiameter=40;
+	var startBallPositionX=width/2; 
+	var startBallPositionY=height/4+500; 
 	bob_1=new Ball(startBobPositionX-bobDiameter*2,startBobPositionY,bobDiameter); 
 	bob_2=new Ball(startBobPositionX-bobDiameter,startBobPositionY,bobDiameter); 
 	bob_3=new Ball(startBobPositionX,startBobPositionY,bobDiameter); 
