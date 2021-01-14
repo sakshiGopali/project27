@@ -5,6 +5,7 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Constraint = Matter.Constraint;
 
+
 function preload()
 {
 	
@@ -21,11 +22,11 @@ function setup() {
         var BallDiameter=40;
 	var startBallPositionX=width/2; 
 	var startBallPositionY=height/4+500; 
-	bob_1=new Ball(startBobPositionX-bobDiameter*2,startBobPositionY,bobDiameter); 
-	bob_2=new Ball(startBobPositionX-bobDiameter,startBobPositionY,bobDiameter); 
-	bob_3=new Ball(startBobPositionX,startBobPositionY,bobDiameter); 
-	bob_4=new Ball(startBobPositionX+bobDiameter,startBobPositionY,bobDiameter); 
-	bob_5=new Ball(startBobPositionX+bobDiameter*2,startBobPositionY,bobDiameter);
+	var bob_1=new Ball(startBobPositionX-bobDiameter*2,startBobPositionY,bobDiameter); 
+	var bob_2=new Ball(startBobPositionX-bobDiameter,startBobPositionY,bobDiameter); 
+	var bob_3=new Ball(startBobPositionX,startBobPositionY,bobDiameter); 
+	var bob_4=new Ball(startBobPositionX+bobDiameter,startBobPositionY,bobDiameter); 
+	var bob_5=new Ball(startBobPositionX+bobDiameter*2,startBobPositionY,bobDiameter);
 	
 	ROOF = new Roof(400,140,300,30);
 	/*bob_1 = new Ball(300,400,40);
